@@ -22,9 +22,10 @@ This project aims to build a Natural Language Processing (NLP) model to analyse 
 ### Data Understanding
 The dataset is from CrowdFolder via data.world. The dataset consists of over 9,000 tweets that have been rated by human annotators as positive, negative or neutral sentiment.
 ### Objectives
-* Build and evaluate multiple machine learning and deep learning models to classify tweet sentiments.
 * Preprocess tweet data effectively through removing noise, handling stopwords and tokenization, to improve model accuracy.
 * Identify patterns in customer sentiments towards Apple and Google products.
+* Build and evaluate multiple machine learning and deep learning models to classify tweet sentiments.
+
 ### Data Analysis
 The text data from the tweets was cleaned, analysed, tokenised, lemmatised and vectorised using TF-IDF. VADER was used to analyse sentiments of the text.
 ### Modeling
@@ -33,15 +34,12 @@ For this project, the following models were trained:
 * Random Forest
 * Multiclass Neural Network
 * LSTM - Long-short Term Memory
-### Tableau Dashboard
 ### Conclusion/Next Steps
 LSTM demonstrated the highest effectiveness in understanding language in a better way, making it the most suitable model for sentiment analysis on social media text. Future enhancements could include more training data, use of pre-trained embeddings like GloVe or BERT, or expanding into bidirectional LSTMs for even deeper context learning.
 ### Repository Structure
 **README.md:** This file provides an overview of the project.
 
-**Tableau Dashboard**: Shows further visualisations and insights on the project.
-
-**Presentation pdf**: Contains a non-technical presentation on the project.
+**Sentiment Analysis.pptx**: Contains a non-technical presentation on the project.
 
 **Notebook**: Notebooks with information on data cleaning, analysis, visualisation and modeling.
 
